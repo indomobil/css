@@ -1,0 +1,752 @@
+/*!
+Design by chromodh Inc.
+(http://danangalvaris.com)
+Description: Indomobil Group
+Version: 3.1 - 2018
+*/
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .table-header {
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+}
+
+/*   color  
+===================================*/
+
+/*   background color   */
+.bg-blue1 {
+	background-color: #2280ca;
+}
+.bg-blue2 {
+	background-color: #59aaef;
+}
+.bg-blue3 {
+	background-color: #83c2f7;
+}
+.bg-red1 {
+	background-color: #ff3334;
+}
+.bg-red2 {
+	background-color: #c23333;
+}
+.bg-grey1 {
+	background-color:#dbe1e1;	
+}
+.bg-grey2 {
+	background-color: #b3bdbe;
+}
+.bg-grey3 {
+	background-color: #677275;	
+}
+.bg-grey4 {
+	background-color: #2e3e44;	
+}
+.bg-white {
+	background-color: #ffffff;
+}
+.bg-black1 {
+	background-color: #3a3e4a;
+}
+.bg-black2 {
+	background-color: #252934;
+}
+.bg-black3 {
+	background-color: #262733;
+}
+.bg-lightgrey{
+	background-color:#f8f8f8;
+}
+.bg-lightblue{
+	background-color:#f6faff;
+}
+.bg-sectionblue{
+	background-color:#83c2f742;
+}
+.bg-shadow{
+	-webkit-box-shadow: 0 1px 3px rgba(104,104,104,1);
+	-moz-box-shadow: 0 1px 3px rgba(104,104,104,1);
+	box-shadow: 0 1px 3px rgba(104,104,104,1);
+}
+
+/*   text color   */
+.txt-blue1 {
+	color: #2280ca;
+}
+.txt-blue2 {
+	color: #59aaef;
+}
+.txt-blue3 {
+	color: #83c2f7;
+}
+.txt-red1 {
+	color: #ff3334;
+}
+.txt-red2 {
+	color: #c23333;
+}
+.txt-black {
+	color: #3a3e4a;
+}
+.txt-grey1 {
+	color:#dbe1e1;	
+}
+.txt-grey2 {
+	color: #b3bdbe;
+}
+.txt-grey3 {
+	color: #677275;	
+}
+.txt-grey4 {
+	color: #2e3e44;	
+}
+.txt-white {
+	color: #ffffff;
+}
+.txt-black1 {
+	color: #3a3e4a;
+}
+.txt-black2 {
+	color: #252934;
+}
+.txt-black3 {
+	color: #262733;
+}
+.txt-shadow{
+	-webkit-text-shadow: 1px 1px 3px rgba(104,104,104,1);
+	-moz-text-shadow: 1px 1px 3px rgba(104,104,104,1);
+	text-shadow: 1px 1px 3px rgba(104,104,104,1);
+}
+/*   button color   */
+.btn {
+    font-weight: 700;
+	border-radius:1px!important;
+}
+.btn-chromodh_white {
+	color: #2280ca;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	border-radius:0!important;
+	
+	-webkit-transition: all .3s ease-in-out;
+       -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+.btn-chromodh_white:hover,
+.btn-chromodh_white:focus,
+.btn-chromodh_white.focus,
+.btn-chromodh_white:active,
+.btn-chromodh_white.active,
+.open > .dropdown-toggle.btn-chromodh_white {
+  color: #ffffff;
+  background-color: #2280ca;
+  border-color: #2280ca;
+}
+.btn-chromodh_white:active,
+.btn-chromodh_white.active,
+.open > .dropdown-toggle.btn-chromodh_white {
+  background-image: none;
+}
+.btn-chromodh_whiteline {
+	color: #2280ca;
+	background-color: #ffffff;
+	border-color: #2280ca;
+	
+	-webkit-transition: all .3s ease-in-out;
+       -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+.btn-chromodh_whiteline:hover,
+.btn-chromodh_whiteline:focus,
+.btn-chromodh_whiteline.focus,
+.btn-chromodh_whiteline:active,
+.btn-chromodh_whiteline.active,
+.open > .dropdown-toggle.btn-chromodh_whiteline {
+  color: #ffffff;
+  background-color: #2280ca;
+  border-color: #2280ca;
+}
+.btn-chromodh_whiteline:active,
+.btn-chromodh_whiteline.active,
+.open > .dropdown-toggle.btn-chromodh_whiteline {
+  background-image: none;
+}
+.btn-chromodh_blue {
+	color: #ffffff;
+	background-color: #2280ca;
+	border-color: #2280ca;
+	
+	-webkit-transition: all .3s ease-in-out;
+       -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+.btn-chromodh_blue:hover,
+.btn-chromodh_blue:focus,
+.btn-chromodh_blue.focus,
+.btn-chromodh_blue:active,
+.btn-chromodh_blue.active,
+.open > .dropdown-toggle.btn-chromodh_blue {
+  color: #2280ca;
+  background-color: #ffffff;
+  border-color: #2280ca;
+}
+.btn-chromodh_blue:active,
+.btn-chromodh_blue.active,
+.open > .dropdown-toggle.btn-chromodh_blue {
+  background-image: none;
+}
+.btn-rad {
+	border-radius:3px!important;	
+}
+/*   end button color   */
+
+/*   End color  
+===================================*/
+/* === general use === */
+.navspacer {
+	
+}
+.openingpage {
+  padding-bottom: 40px;
+}
+.logochromodh {
+	background:url(../img/logo_p.png) no-repeat;
+	background-size:cover;
+	width:59px;
+	height:80px;
+}
+.affix .logochromodh {
+	background-size:cover!important;
+}
+	body {
+		background: #fff;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+		color: #000;
+	}
+	html {
+		height: 100%;
+	}
+	a {
+		-webkit-transition: 300ms;
+		-moz-transition: 300ms;
+		-o-transition: 300ms;
+		transition: 300ms;
+		color: #222;
+	}
+	.framesection {
+		padding:0 25px;
+	}
+	.sectionchromodh {
+		padding:25px 0;
+		position:relative;
+	}
+	.stepbystepchromodh {
+		padding:15px 0;
+		margin: 0;
+	}
+	.form-control {
+	  border-radius:1px;  
+	}
+	.page-header {
+		padding-bottom: 9px;
+		margin: 20px 0 10px;
+		border-bottom: 1px solid rgba(238, 238, 238, 0.1);
+	}
+	.img-display {
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+	.img-about {
+		width:100%	
+	}
+	.feature-image {
+		height:250px;
+		margin-top: 25px;
+	}
+	.modalpage{
+		margin:0;
+		width:100%;	
+	}
+	.modalpage .modal-content {
+	    box-shadow: none;
+		border: none;
+		border-radius:0;
+	}
+	.modal-header {
+		border:none;
+	}
+	
+	.bordertext15, .bordertext5 {
+		display: block;
+		width: 100%;
+		margin: 15px 0 20px;
+	}
+	.bordertext15 span, .bordertext5 span {
+		display: inline-block;
+		border-top: 4px solid #3a3e4a;
+	}
+	.bordertext5 span {
+		width: 5%;
+	}
+	.bordertext15 span {
+		width: 15%;
+	}
+	.limittitle h5{
+		line-height: 1.1;
+		max-height: 2.8rem;
+		height: 2.8rem;
+		overflow: hidden;
+	}
+	.limittitle p{
+		line-height: 1;
+		max-height: 2rem;
+		height: 2rem;
+		overflow: hidden;
+	}
+	.arrow-down {
+		position: absolute;
+		top: 0;
+		width: 0;
+		height: 0;
+		border-left: 30px solid transparent;
+		border-right: 30px solid transparent;
+		border-top: 30px solid #f8f8f8;
+		left: 50%;
+		margin-left: -30px;
+	}
+	.mediapdf {
+		margin: 0 auto;
+		height:78vh;
+		width:100%;
+	}
+	.limitlist {
+		max-height: 242px;
+		overflow: hidden;
+		overflow-y: auto;	
+	}
+/* === End general use === */
+
+/* === Back to Top === */
+.backtotop {
+	bottom:13px!important;
+}
+.backtotop {
+	position:fixed;
+	bottom:13px;
+	right:-90px;
+	z-index:9999;
+	-webkit-transition: all .5s ease-in-out;
+       -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+         -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+}
+.backtotop a {
+	background:#f5f5f5;
+	padding: 3px 10px;
+	width:90px;
+	float:left;
+	font-weight: 700;
+	overflow:hidden!important;
+	color:#3a3e4a;
+	font-size:13px;
+}
+.backtotop a:hover {
+	text-decoration:none;
+	color:#2280ca;
+}
+.backtotop p {
+	background:rgba(102, 102, 102, 0.15);
+	padding: 3px 5px;
+	float:left;
+	margin:0;
+}
+.backtotop:hover {
+	right:0;
+}
+.backtotop:hover .bttcaret {
+	border-top: 8px solid transparent;
+	border-right: 0 dotted;
+	border-bottom: 8px solid transparent;
+	border-left: 8px solid #2280ca;
+}
+.bttcaret {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 0 dotted;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #2280ca;
+	border-left: 8px solid transparent;
+  
+	-webkit-transition: all .3s ease-in-out;
+       -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+/* === end Back to Top === */
+
+/* === Affix Top === */
+.affix {
+	width: 100%;
+	-webkit-animation: fadeInTop 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+	animation: fadeInTop 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
+}
+/* === End Affix Top === */
+
+/* === Slider Bootstrap === */
+.revslide {
+}
+.revslide .carousel-item {
+  height: 78vh;
+  min-height: 300px;
+/*  max-height: 600px;*/
+  background: no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.revslide .carousel-caption {
+	position:relative;
+	top:20px;
+	bottom:20px;
+	right: 0;
+    left: 0;
+	height:45vh;
+}
+.revslide .labelslider {
+    bottom: 0;
+    padding: 10px;
+	display:inline-block;
+	margin-top:25px;
+}
+.carousel-control-next, .carousel-control-prev {
+	width:5%;	
+}
+.carousel-indicators li {
+	background-color: rgba(0, 160, 214, 0.3);	
+}
+.carousel-indicators .active {
+	background-color: #00a0d6;
+}
+.carousel.carousel-fade .carousel-item {
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+	transition-property: opacity;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+/* === End Slider Bootstrap === */
+/* === gmap coy === */
+#mapchromodh {
+	padding-top:0;
+}
+.gm-style {
+	/* font-family: 'chromodhbody', sans-serif;	 */
+}
+#map_canvas {
+width: 100%;
+height: 400px;
+}
+.map_acc {
+width: auto;
+height: 400px;
+overflow: auto;
+}
+.gmap * {
+	font-size: 100%;
+}
+.controls_title {
+ 	color:#3a3e4a;	
+}
+.ullist {
+	width: 100%;
+}
+.tab-content {
+	margin: 0 0 20px;
+}
+.menu .ullist li {
+	width: 49%;
+	float: left;
+	margin-right: 1%
+}
+.menu .ullist li.active a,
+.menu .ullist li a:hover {
+	color: #2280ca !important;
+	background-color: #eee !important;
+}
+.tabs .ullist li a{
+	padding: 0px 23.8px !important;
+}
+.tabs .ullist li a:hover {
+	color: #2280ca !important;
+	background-color: transparent !important;
+}
+.tabs .ullist li.active a{
+	font-weight: bold;
+	color: #3c3c3c !important;
+	background-color: #fff !important;
+}
+.ullist li.active a {
+	font-weight: bold;
+}
+.ullist li.active a,
+.ullist li a:hover {
+	color: #2280ca !important;
+	background-color: #eee !important;
+}
+.gmap {
+	height: 350px;
+	width: 100%;
+	padding: 0;
+	border: none;
+	font-size: 90%;
+	margin-bottom:20px;
+}
+.gmap + .gmap {
+	margin: 5px 0;
+}
+.canvas_map {
+	width: 100% !important;
+}
+.gmap img, .gmap object, .gmap embed { max-width: none; height: auto }
+.gmap *,.gmap *:before,.gmap *:after{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;}
+.tabs-content li {
+	list-style-type: none !important;
+}
+#controls-findadealer,
+#controls-service,
+#controls-era,
+#controls-bodyrepair {
+	margin-bottom: 20px;
+	float: left;
+	width: 100%;
+}
+#controls-findadealer .ullist,
+#controls-service .ullist,
+#controls-era .ullist,
+#controls-bodyrepair .ullist {
+	margin: 0px; 
+	padding: 0px; 
+	list-style-type: none;
+	height: 320px;
+	overflow-y: scroll;
+}
+#controls-findadealer .wrap_controls,
+#controls-service .wrap_controls,
+#controls-era .wrap_controls,
+#controls-bodyrepair .wrap_controls {
+	margin-bottom: 20px;
+}
+#route table tbody tr td.adp-text {
+	padding: 9px 25px;
+	vertical-align: middle;
+}
+.line {
+	border-bottom: 3px solid #ddd;
+	margin-top: 10px;
+}
+.gmap h5{
+	margin-top: 5px;
+	margin-bottom: 20px;
+	padding: 5px;
+	display:inline-block;
+}
+.gmap p{
+	margin:0;
+	font-size:11px;
+	font-weight:bold;
+	line-height:14px;
+}
+.gmap p strong{
+	font-weight:bold;
+	font-size:17px;
+	color:#72BCDF;
+}
+.gmapframe {
+	margin:20px 0;	
+}
+.gmap_controls a span small {
+	font-size: 70%;
+    color: #2280ca;
+    padding: 3px;
+    margin-left: 7px;
+    background-color: #f2f2f2;
+}
+footer {
+    background: #ebebeb;
+    padding: 30px 0;
+    position: relative;
+    z-index: 999;
+}
+footer .features {
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.footer-nav {
+
+}
+.footer-nav h3 {
+    color: #6e6e6e;
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-nav ul li a {
+    color: #6e6e6e;
+    font-size: 14px;
+}
+@media only screen and (max-width: 549px) {
+	.gmap {
+    	height: 250px;
+	}
+	#controls-findadealer .ullist, #controls-service .ullist, #controls-era .ullist, #controls-bodyrepair .ullist {
+		height:150px;
+	}
+}
+/* === end gmap coy === */
+
+/* === Social Media === */
+	.instasuu {
+		width:100%!important;
+		height:auto;	
+	}
+	.socialcontent #instasu{
+		overflow-y: scroll;
+	}
+	.socialcontent.socialcontent #instasu {
+		height: 250px;
+	}
+	
+	.dropcap {
+		margin-top: 15px;
+	}
+	.dropcap p:first-child {
+		text-indent:0!important;
+		min-height: 38px;
+	}
+	.dropcap p:first-child:first-letter {
+		text-indent:0!important;
+		min-height: 55px;
+		
+		float: left;
+		font-size: 460%;
+		line-height: 30px;
+		padding-bottom: 0;
+		padding-top: 10px;
+	}
+	.modal-body .indent{
+		text-indent:25px;
+	}
+/* === End Social Media === */
+
+/* === responsive ===*/
+@media only screen and (min-width:1200px) {
+	.modal-lg {
+		max-width:1000px;
+	}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+	
+}
+
+@media (min-width:992px) {
+    .affix .logochromodh {
+		background:url(../img/logo_l.png) no-repeat;
+		width: 270px;
+		height: 36px;
+	}
+}
+
+@media (max-width:991px) {
+    
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    #home-slider .slide-text {
+        top: 20px;
+        width: 60%
+    }
+	.revslide .carousel-item {
+		height: 50vh;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.logochromodh{
+		width: 59px;
+		height: 80px;
+	}
+	.affix .logochromodh {
+		background:url(../img/logo_l.png) no-repeat;
+		width: 215px;
+		height: 25px;
+	}
+	.sectionchromodh {
+        padding: 55px 0
+    }
+	.affix-top #chromodhoo {
+		margin-top: 51px;
+	}
+	.dropdown:hover .dropdown-menu{
+		display: block;
+	}
+	.navspacer {
+		margin-top:90px;	
+	}
+	.affix-top {
+		padding-top:0;
+		padding-bottom:0;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.logochromodh {
+		background:url(../img/logo_l.png) no-repeat;
+		width: 215px;
+		height: 25px;
+	}
+	.revslide .carousel-item {
+		height: 50vh;
+		min-height: 300px;
+		max-height: 400px;
+	}
+	.navspacer {
+		margin-top:50px;	
+	}
+}
+
+@media (min-width:576px) and (max-width:767px) {
+	
+}
+
+@media only screen and (max-width:575px) {
+	
+}
